@@ -1,0 +1,14 @@
+.settings {
+    width: 100%;
+    background-color: #2C5C24;
+}
+
+.settings a {
+    position: relative;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+

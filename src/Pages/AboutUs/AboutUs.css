@@ -1,0 +1,13 @@
+.Header {
+    position: relative;
+    left: 850px;
+    padding: 10px;
+    background-color: aqua;
+    max-width: 10%;
+}
+
+.description {
+    padding: 20px;
+    background-color: grey;
+    
+}

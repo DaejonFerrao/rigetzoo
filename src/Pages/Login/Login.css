@@ -1,0 +1,40 @@
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding:32px 24px 24px;
+    gap: 16px;
+    text-align: center;
+}
+
+.form-container {
+    max-width: 500px;
+    overflow: hidden;
+    position: relative;
+    left: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.message {
+    font-size: 20px;
+}
+
+.input-container {
+    flex-direction: column;
+    width: 100px;
+    position: relative;
+    left: 360px;
+
+}
+
+.submit {
+    width: 100px;
+    left: 300px;
+    position: relative;
+}
