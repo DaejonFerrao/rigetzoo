@@ -2,6 +2,7 @@ import "./Home.css";
 
 import Button from "../../Components/Button/Button";
 import tiger from "../Images/tiger.jpeg"
+import tiger2 from "../Images/tiger 2.jpg"
 import HeroImage from "../../Components/HeroImage/HeroImage.js"
 
 const Home = () => {
@@ -9,7 +10,7 @@ const Home = () => {
         <div className="home-page-container">
             <img
                 className="home-page-img"
-                src={tiger}
+                src={tiger2}
                 alt="tiger"
             />
 
@@ -42,15 +43,15 @@ const Home = () => {
                 <Button text="Find your nearest zoo" path="/Location" />
             </div>
 
-            <div className="information-box">
+            {/* <div className="information-box">
                 <h1>Open timings</h1>
                 <p>Daily 8am-6pm
                     Book Your Tickets
                 </p>
-                <Button text="Find your nearest zoo" path="/Location" />
+                <Button text="Find your nearest zoo" path="/Location" /> */}
             </div>
         </div>
-    </div>
+    // </div>
     );
 };
 
