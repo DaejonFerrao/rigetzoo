@@ -10,6 +10,7 @@ import Login from './Pages/Login/Login.js';
 import Footer from "./Components/Footer/Footer.js"
 import Carousel from './Pages/Carousel/Carousel.js';
 import AboutUs from './Pages/AboutUs/AboutUs.js';
+import Articles from './Pages/Articles/Articles.js';
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/Register" element={<Register />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/Articles" element={<Articles />} />
        </Routes>
        <Footer />
 
